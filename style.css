@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: #1f1809;
+  height: 400px;
+  padding: 10px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  border: 2px solid black;
+  color: #fff;
+  width: 500px;
+  justify-content: space-around;
+  margin-left: 60%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.hammer {
+  height: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Red Rose";
+  font-size: 80px;
+  max-width: 700px;
+}
+
+.hero-heading {
+}
+
+.hero-description {
+  max-width: 500px;
+  font-family: "Red Rose";
+}
