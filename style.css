@@ -4,14 +4,26 @@
 }
 
 .container {
-  background-color: #1f1809;
+  background-color: #2b2922;
   height: 400px;
-  padding: 10px 40px;
+  padding: 10px 100px;
 }
 
 .navbar {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
+  align-items: center;
+  font-family: "Red Rose";
+}
+
+.button-small {
+  border: 2px solid #a08f36;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 0.6rem 1.6rem;
+  background: transparent;
+  color: #a08f36;
 }
 
 .list li {
@@ -20,11 +32,11 @@
 
 .list {
   display: flex;
-  border: 2px solid black;
+  flex-direction: row;
   color: #fff;
-  width: 500px;
-  justify-content: space-around;
-  margin-left: 60%;
+  gap: 1rem;
+  position: relative;
+  right: -18rem;
 }
 
 .hero {
